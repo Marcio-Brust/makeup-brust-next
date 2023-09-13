@@ -18,9 +18,7 @@ export const Navbar = () => {
   return (
     <>
       <header className="bg-tertiary flex justify-between items-center h-32">
-        <button className="flex items-center justify-center w-10 h-10 bg-primary">
-          <span className="border-2 border-t-primary w-8"></span>
-        </button>
+        <button className="flex items-center py-5 px-5 m-20  rounded-sm  bg-primary"></button>
         <Image src={logo} alt="logo" width={300} priority={true} />
         <input type="search" name="" id="" />
       </header>

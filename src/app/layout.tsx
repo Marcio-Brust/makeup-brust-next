@@ -1,6 +1,6 @@
 "use client";
 
-import "./globals.css";
+import "../styles/globals.css";
 import { QueryClientProvider, QueryClient } from "react-query";
 import type { Metadata } from "next";
 import { Navbar } from "../components/Navbar";
